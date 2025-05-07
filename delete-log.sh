@@ -16,3 +16,5 @@ do
     echo "deleting line: $line"
     rm -rf $line
 done <<< $files
+
+ 
