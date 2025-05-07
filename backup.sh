@@ -15,9 +15,9 @@ fi
 
 files=$( find "$source_dir" -type f  -name "*.log" -mtime +14)
 
-if [ ! -z $files ]; then
+if [ -n $files ]; then
     echo "files found"
-    
+
 else 
     echo "no files found older than 14"
 fi
