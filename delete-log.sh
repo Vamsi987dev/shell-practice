@@ -8,7 +8,7 @@ else
     exit 1
 fi
 
-files=$(find $source_dir -name "*.log" +14)
+files=$(find "$source_dir" -type f -name "*.log" +14)
 echo "Files: $files"
 
 while IFS= read -r line
