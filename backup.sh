@@ -28,9 +28,9 @@ if [ -n "$files" ]; then
     else
         echo "file zip failed"
         exit 1
-    
+    fi   
 else 
-    echo "no files found older than $days days"
+        echo "no files found older than $days days"
 fi
 
 
